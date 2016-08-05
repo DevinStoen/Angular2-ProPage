@@ -1,0 +1,19 @@
+<h2>Projects</h2>
+<table class = "table-hover">
+	<thead>
+		<tr>
+			<td>ID</td>
+			<td>Title</td>
+			<td>Description</td>
+		</tr>
+	</thead>
+	<tbody>
+		<tr *ngFor = "#v of videos" (click)="onSelect(v)">
+			<td>{{v.id}}</td>
+			<td>{{v.title}}</td>
+			<td>{{v.desc}}</td>
+		</tr>
+	</tbody>
+</table>
+
+<youtube width="640" height="390" videoid="M7lc1UVf-VE"></youtube>

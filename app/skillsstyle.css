@@ -1,0 +1,32 @@
+h1{
+	text-align: center;
+}
+
+body{
+	margin:0;
+	padding:0;
+}
+
+header{
+	/*background-image: url('./app/img/bannerimage.jpg');*/
+	height: 100vh;
+	background-size: cover;
+	color: #000;
+	font-family: 'Arial';
+}
+
+.header-content{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	text-align: center;
+}
+
+div.image {
+   content:url(./app/img/java.png);
+   width: 100px;
+   height: 150px;
+}​
+
